@@ -1,0 +1,22 @@
+p{
+    font-size: 20px;
+    margin-block:10px ;
+}
+ul{
+    margin-block: 10px;
+}
+h3,h2{
+    font-size: 25px;
+    color: #002662;
+    font-weight: 600;
+    margin-block: 40px;
+}
+table, th, td{
+    border:1px solid #ccc;
+    width: fit-content;
+    padding: 10px;
+}
+table{
+    border-collapse:collapse;
+    
+}
