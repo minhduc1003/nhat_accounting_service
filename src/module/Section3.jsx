@@ -10,7 +10,7 @@ const Section3 = () => {
     <section className="w-full flex flex-col tablet:flex-row  ">
       <div className="flex-1 bg-[#4F2D7F] text-white p-10 pr-12 tablet:p-20 tablet:pr-32 flex tablet:items-end items-start flex-col h-[600px] justify-center " data-aos="fade-right">
         <div className="max-w-[450px] ">
-          <p className=" text-xl mb-6">My chalenger</p>
+          <p className=" text-xl mb-6">Our Mission</p>
           <h1 className="whitespace-break-spaces font-semibold tablet:text-5xl text-3xl mb-6">
             Management accounting
           </h1>
@@ -22,7 +22,7 @@ const Section3 = () => {
       </div>
       <div className="flex-1 bg-white tablet:p-20 tablet:pl-32 p-10 pl-12 h-[600px]  flex flex-col items-start justify-center" data-aos="fade-left">
         <div className="max-w-[450px]">
-          <p className=" text-xl mb-6">My chalenger</p>
+          <p className=" text-xl mb-6">Our Mission</p>
           <h1 className="whitespace-break-spaces font-semibold tablet:text-5xl text-3xl  mb-6">
             Financial accountant
           </h1>
