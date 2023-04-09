@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="text-[#002662] h-[100vh] bg-[url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?cs=srgb&dl=pexels-juan-pablo-serrano-arenas-1242348.jpg&fm=jpg)]">
+      <div className="text-[#002662] p-32 h-[fit] bg-[url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?cs=srgb&dl=pexels-juan-pablo-serrano-arenas-1242348.jpg&fm=jpg)]">
         <div className="max-w-[1440px] mx-auto p-20">
           <div>
             <h1 className="font-bold text-4xl mb-10">Contact us</h1>

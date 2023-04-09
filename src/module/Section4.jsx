@@ -19,7 +19,7 @@ const Section4 = () => {
                 <div className='flex flex-col tablet:flex-row gap-5 mb-8'>
                     {getLimitData.map((items)=>(<Item key={items.id} id={items.id} heading={items.heading} createAt={items.createAt} img={items.image}></Item>))}
                 </div>
-                <Link to={"/Blogs"} className='text-white px-20  py-4 bg-[#51BA61] mx-auto w-fit rounded-md block'>Show More</Link>
+                <Link to={"/Blogs"} className='text-white px-20  py-4 bg-[#51BA61] tablet:mx-auto w-fit rounded-md block'>Show More</Link>
             </div>
         </div>
     );
