@@ -7,8 +7,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="text-[#002662] p-32 h-[fit] bg-[url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?cs=srgb&dl=pexels-juan-pablo-serrano-arenas-1242348.jpg&fm=jpg)]">
-        <div className="max-w-[1440px] mx-auto p-20">
+      <div className="text-[#002662] tablet:p-32 h-[fit] bg-[url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?cs=srgb&dl=pexels-juan-pablo-serrano-arenas-1242348.jpg&fm=jpg)]">
+        <div className="max-w-[1440px] mx-auto tablet:p-20 p-5">
           <div>
             <h1 className="font-bold text-4xl mb-10">Contact us</h1>
             <h4 className="text-xl mb-14">Speak to our experts</h4>

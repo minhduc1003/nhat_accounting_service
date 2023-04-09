@@ -10,7 +10,7 @@ const Section2 = () => {
     <section className="w-full flex justify-center items-center h-[fit] p-10 bg-[#25252F]" data-aos="fade-up">
       <div className="text-white relative">
         <h1 className="text-center text-5xl line mb-10">Your needs</h1>
-        <p className=" block mx-auto w-[70%]  text-justify text-lg ">
+        <p className=" block mx-auto w-[70%]  text-justify tablet:text-lg text-base ">
           Protecting the interests of the business is the purpose that we wish
           to accomplish for our customers. With the achievements that NAS has
           achieved, we are one of the leading quality auditing companies in

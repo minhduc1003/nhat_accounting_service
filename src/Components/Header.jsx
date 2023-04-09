@@ -85,6 +85,7 @@ const Header = () => {
               className={
                 "bg-[#51BA61] rounded-xl p-4 hover:bg-[#51BA61] transition-all"
               }
+              onClick={()=>setActive(false)}
             >
               Contact Us
             </NavLink>

@@ -9,7 +9,7 @@ const Services = () => {
     <>
       <div>
         <div className="bg-[url(https://inngochuong.com/uploads/images/mau-san-pham/mau-backgroud-dep-don-gian/mau-background.jpg)] bg-no-repeat w-full h-full bg-cover">
-          <div className="max-w-[1440px] mx-auto p-20 loading">
+          <div className="max-w-[1440px] mx-auto tablet:p-20 p-5 loading">
             <h1 className="text-[#002662] text-4xl font-bold">
               Our accounting services
             </h1>
@@ -74,7 +74,7 @@ const Services = () => {
           </div>
         </div>
         <div className="bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRokHwsB4C1ATMXQaMXb7onK4X5b5uUpFRaTqSqOjqM-07mdUzLElRlxvesCGLO7J3kc&usqp=CAU)] bg-no-repeat bg-cover">
-          <div className="max-w-[1440px] mx-auto p-20 loading2">
+          <div className="max-w-[1440px] mx-auto tablet:p-20 p-5 loading2">
             <div className="flex flex-col tablet:flex-row text-white items-start justify-between p-5 ">
               <div className="max-w-[400px] ">
                 <h1 className="font-bold text-6xl text-[#002662]">

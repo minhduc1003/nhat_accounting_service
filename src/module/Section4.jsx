@@ -15,7 +15,7 @@ const Section4 = () => {
     return (
         <div className='w-full bg-[#F7F7F7] p-20' data-aos="fade-in">
             <div className='w-[1000px] mx-auto'>
-                <h1 className='text-4xl font-semibold mb-16'>Latest news & insights</h1>
+                <h1 className='text-2xl tablet:text-4xl font-semibold mb-16 '>Latest news & insights</h1>
                 <div className='flex flex-col tablet:flex-row gap-5 mb-8'>
                     {getLimitData.map((items)=>(<Item key={items.id} id={items.id} heading={items.heading} createAt={items.createAt} img={items.image}></Item>))}
                 </div>
