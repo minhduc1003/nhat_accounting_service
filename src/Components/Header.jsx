@@ -20,11 +20,6 @@ const Header = () => {
       title: "Services",
       to: "/Services",
     },
-    {
-      id: 4,
-      title: "Contact",
-      to: "/Contact",
-    },
    
   ];
 
@@ -49,7 +44,7 @@ const Header = () => {
           </svg>
         </div>
 
-        <div  className={`bg-[#1F232C] shadow-sm w-fit p-5 absolute top-0  transition-all h-[100vh] z-20  ${active?"":"-translate-x-[250px]" }`}>
+        <div  className={`bg-white shadow-sm w-fit p-5 absolute top-0  transition-all h-[100vh] z-20  ${active?"":"-translate-x-[250px]" }`}>
           <div className="flex gap-5 mb-5">
             <div onClick={()=>setActive(false)}>
               <svg
@@ -86,6 +81,13 @@ const Header = () => {
               </NavLink>
             </div>
           ))}
+          <NavLink to={"/Contact"}
+              className={
+                "bg-[#51BA61] rounded-xl p-4 hover:bg-[#51BA61] transition-all"
+              }
+            >
+              Contact Us
+            </NavLink>
         </div>
       </div>
       <div className="sticky top-0 w-full bg-[#1F232C] hidden tablet:block text-white z-[100] ">
@@ -113,7 +115,7 @@ const Header = () => {
             ))}
           </div>
           <div>
-            <NavLink
+            <NavLink to={"/Contact"}
               className={
                 "border-4 border-solid border-[#51BA61] rounded-xl p-4 hover:bg-[#51BA61] transition-all"
               }

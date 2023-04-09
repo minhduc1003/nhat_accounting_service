@@ -4,23 +4,28 @@ const ScrollTop = () => {
   const handleScroll = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  const getScroll = document.querySelector(".scroll");
-  window.addEventListener("scroll", () => {
-    var scroll_y = this.scrollY;
-    if (scroll_y > 100) {
-      getScroll.classList.add("add");
-      getScroll.classList.remove("remove");
-    } else {
-      getScroll.classList.add("remove");
-      getScroll.classList.remove("add");
-    }
-  });
+
   return (
     <div
       onClick={handleScroll}
-      className="fixed bottom-3 right-3 p-2 rounded-full border-2 hover:bg-orange-400 transition-all border-orange-400 border-solid scroll "
+      className="fixed bottom-3 right-3 p-3 rounded-full border-4 hover:bg-orange-400 transition-all border-orange-400 border-solid scroll hover:text-white "
     >
-      <img className="w-8 h-8" src="./angle-small-up.svg" alt="" />
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4.5 15.75l7.5-7.5 7.5 7.5"
+          />
+        </svg>
+      </span>
     </div>
   );
 };

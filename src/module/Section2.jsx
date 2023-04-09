@@ -1,24 +1,28 @@
-import React from 'react';
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Section2 = () => {
-    return (
-        <section className="w-full flex justify-center items-center h-[400px] p-10 bg-[#25252F]">
-        <div className="text-white relative">
-          <h1 className="text-center text-5xl line mb-10">Nhu cầu của quý khách </h1>
-          <p className=" block mx-auto w-[60%] text-center text-lg ">
-            Bảo vệ lợi ích của doanh nghiệp là mục đích mà chúng tôi mong muốn
-            thực hiện cho khách hang. Với những thành tựu mà NAS đã đạt được,
-            chúng tôi là một trong những công ty kiểm toán chất lượng hang đầu
-            Việt Nam. Công ty đã đảm nhiệm và giải quyết vô số những vấn đề nan
-            giải trong lĩnh vực tài chính kế toán cho doanh nghiệp trong và
-            ngoài nước trước những rủi ro nội bộ và bên ngoài doanh nghiệp. Các
-            doanh nghiệp có thể an tâm khi trao gửi niềm tin và được đảm bảo
-            nhận lại kết quả thuận lợi, lợi ích từ sự làm việc hiệu quả nhất từ
-            chúng tôi
-          </p>
-        </div>
-      </section>
-    );
+  useEffect(() => {
+    AOS.init();
+  }, [])
+  return (
+    <section className="w-full flex justify-center items-center h-[fit] p-10 bg-[#25252F]" data-aos="fade-up">
+      <div className="text-white relative">
+        <h1 className="text-center text-5xl line mb-10">Your needs</h1>
+        <p className=" block mx-auto w-[70%]  text-justify text-lg ">
+          Protecting the interests of the business is the purpose that we wish
+          to accomplish for our customers. With the achievements that NAS has
+          achieved, we are one of the leading quality auditing companies in
+          Vietnam. The company has taken on and solved countless problems in the
+          field of finance and accounting for domestic and foreign businesses
+          against internal and external risks. Businesses can rest assured when
+          giving trust and are guaranteed to receive favorable results, benefit
+          from the most effective work from us.
+        </p>
+      </div>
+    </section>
+  );
 };
 
 export default Section2;
